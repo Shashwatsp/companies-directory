@@ -16,9 +16,7 @@ const Filter = () => {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-5 gap-4 bg-[#1c1c22]  p-4 rounded-xl shadow-lg border border-[#00ff99]">
-     
-
-     {/* search bar */}
+      {/* search bar */}
       <input
         type="text"
         placeholder="Search company..."
@@ -40,12 +38,9 @@ const Filter = () => {
         <option value="Bangalore">Bangalore</option>
         <option value="Pune">Pune</option>
         <option value="Noida">Noida</option>
-        
-        
       </select>
 
       {/* Industry Filter */}
-
 
       <select
         value={industry}

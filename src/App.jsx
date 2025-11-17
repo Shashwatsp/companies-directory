@@ -1,13 +1,10 @@
 import CompanyList from "./components/CompanyList";
-import Filter from "./components/filter";
+import Filter from "./components/Filter";
 import Pagination from "./components/Pagination";
-
 
 const App = () => {
   return (
-
-  
-       <div className=" h-screen w-full bg-[#1c1c22] p-6">
+    <div className=" h-screen w-full bg-[#1c1c22] p-6">
       <h1 className="text-3xl font-bold text-center font-primary text-[#00ff99] mb-6">
         Company Finder
       </h1>
@@ -18,8 +15,6 @@ const App = () => {
         <Pagination />
       </div>
     </div>
- 
-   
   );
 };
 
